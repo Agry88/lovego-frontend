@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lovego-frontend/static/css/main.38e2bfe1.css",
+    "main.js": "/lovego-frontend/static/js/main.3b9c0b9c.js",
+    "static/js/787.23eef1b7.chunk.js": "/lovego-frontend/static/js/787.23eef1b7.chunk.js",
+    "static/media/product.png": "/lovego-frontend/static/media/product.b1f33abe819e6bfb139e.png",
+    "static/media/logo.png": "/lovego-frontend/static/media/logo.e290b6d3e36b5f64aa97.png",
+    "static/media/noto_shopping-cart.svg": "/lovego-frontend/static/media/noto_shopping-cart.e0feb74c7912b80dd888006a1eb7ead8.svg",
+    "static/media/magnifying.svg": "/lovego-frontend/static/media/magnifying.eab7ab68f1212affc51a480fc322e253.svg",
+    "index.html": "/lovego-frontend/index.html",
+    "static/media/bell.svg": "/lovego-frontend/static/media/bell.a3d9b9d565af8b486de2ca4f3857af2c.svg",
+    "static/media/shopcar.svg": "/lovego-frontend/static/media/shopcar.4dd2fae63bae861a994d34f1ca8a9982.svg",
+    "static/media/logout.svg": "/lovego-frontend/static/media/logout.778da0baf1c37a8a88d5baa2c7020bad.svg",
+    "main.38e2bfe1.css.map": "/lovego-frontend/static/css/main.38e2bfe1.css.map",
+    "main.3b9c0b9c.js.map": "/lovego-frontend/static/js/main.3b9c0b9c.js.map",
+    "787.23eef1b7.chunk.js.map": "/lovego-frontend/static/js/787.23eef1b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38e2bfe1.css",
+    "static/js/main.3b9c0b9c.js"
+  ]
+}
