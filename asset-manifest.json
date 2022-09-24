@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/lovego-frontend/static/css/main.08079720.css",
-    "main.js": "/lovego-frontend/static/js/main.d16e503b.js",
+    "main.css": "/lovego-frontend/static/css/main.c4af49f8.css",
+    "main.js": "/lovego-frontend/static/js/main.15767fa5.js",
     "static/js/787.23eef1b7.chunk.js": "/lovego-frontend/static/js/787.23eef1b7.chunk.js",
     "static/media/product.png": "/lovego-frontend/static/media/product.b1f33abe819e6bfb139e.png",
     "static/media/logo.png": "/lovego-frontend/static/media/logo.e290b6d3e36b5f64aa97.png",
     "static/media/bbq.svg": "/lovego-frontend/static/media/bbq.cf8889d80ce9a64f0072ec56480dfecd.svg",
     "static/media/noto_shopping-cart.svg": "/lovego-frontend/static/media/noto_shopping-cart.e0feb74c7912b80dd888006a1eb7ead8.svg",
     "static/media/magnifying.svg": "/lovego-frontend/static/media/magnifying.2b07a2cababd3ca9c3883eb77166bb5d.svg",
+    "static/media/lefticon.svg": "/lovego-frontend/static/media/lefticon.f4bef4e0c7dfea474e2fb3dc3f34735f.svg",
     "index.html": "/lovego-frontend/index.html",
     "static/media/bell.svg": "/lovego-frontend/static/media/bell.a3d9b9d565af8b486de2ca4f3857af2c.svg",
     "static/media/shopcar.svg": "/lovego-frontend/static/media/shopcar.4dd2fae63bae861a994d34f1ca8a9982.svg",
     "static/media/logout.svg": "/lovego-frontend/static/media/logout.778da0baf1c37a8a88d5baa2c7020bad.svg",
-    "main.08079720.css.map": "/lovego-frontend/static/css/main.08079720.css.map",
-    "main.d16e503b.js.map": "/lovego-frontend/static/js/main.d16e503b.js.map",
+    "main.c4af49f8.css.map": "/lovego-frontend/static/css/main.c4af49f8.css.map",
+    "main.15767fa5.js.map": "/lovego-frontend/static/js/main.15767fa5.js.map",
     "787.23eef1b7.chunk.js.map": "/lovego-frontend/static/js/787.23eef1b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08079720.css",
-    "static/js/main.d16e503b.js"
+    "static/css/main.c4af49f8.css",
+    "static/js/main.15767fa5.js"
   ]
 }
