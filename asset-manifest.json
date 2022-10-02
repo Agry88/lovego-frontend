@@ -1,24 +1,33 @@
 {
   "files": {
-    "main.css": "/lovego-frontend/static/css/main.c4af49f8.css",
-    "main.js": "/lovego-frontend/static/js/main.15767fa5.js",
+    "main.css": "/lovego-frontend/static/css/main.13610245.css",
+    "main.js": "/lovego-frontend/static/js/main.5a9cf499.js",
     "static/js/787.23eef1b7.chunk.js": "/lovego-frontend/static/js/787.23eef1b7.chunk.js",
     "static/media/product.png": "/lovego-frontend/static/media/product.b1f33abe819e6bfb139e.png",
     "static/media/logo.png": "/lovego-frontend/static/media/logo.e290b6d3e36b5f64aa97.png",
+    "static/media/open-sans-all-400-normal.woff": "/lovego-frontend/static/media/open-sans-all-400-normal.3bc4108fa8f9a72e6ea5.woff",
+    "static/media/open-sans-cyrillic-ext-400-normal.woff2": "/lovego-frontend/static/media/open-sans-cyrillic-ext-400-normal.acfea1d2352591b09c46.woff2",
+    "static/media/open-sans-latin-400-normal.woff2": "/lovego-frontend/static/media/open-sans-latin-400-normal.4d140983c7c8c4a8c722.woff2",
+    "static/media/open-sans-latin-ext-400-normal.woff2": "/lovego-frontend/static/media/open-sans-latin-ext-400-normal.8deeb3884c8ce11a3537.woff2",
+    "static/media/open-sans-cyrillic-400-normal.woff2": "/lovego-frontend/static/media/open-sans-cyrillic-400-normal.35d9aa74a5c9697bc38c.woff2",
+    "static/media/open-sans-greek-400-normal.woff2": "/lovego-frontend/static/media/open-sans-greek-400-normal.accce9b81f55c6f4779c.woff2",
+    "static/media/open-sans-hebrew-400-normal.woff2": "/lovego-frontend/static/media/open-sans-hebrew-400-normal.608be94da46d7cd7a003.woff2",
+    "static/media/open-sans-vietnamese-400-normal.woff2": "/lovego-frontend/static/media/open-sans-vietnamese-400-normal.6517a5545bd31eeb4a61.woff2",
     "static/media/bbq.svg": "/lovego-frontend/static/media/bbq.cf8889d80ce9a64f0072ec56480dfecd.svg",
     "static/media/noto_shopping-cart.svg": "/lovego-frontend/static/media/noto_shopping-cart.e0feb74c7912b80dd888006a1eb7ead8.svg",
+    "static/media/open-sans-greek-ext-400-normal.woff2": "/lovego-frontend/static/media/open-sans-greek-ext-400-normal.6e872659616d9b8fb28c.woff2",
     "static/media/magnifying.svg": "/lovego-frontend/static/media/magnifying.2b07a2cababd3ca9c3883eb77166bb5d.svg",
     "static/media/lefticon.svg": "/lovego-frontend/static/media/lefticon.f4bef4e0c7dfea474e2fb3dc3f34735f.svg",
     "index.html": "/lovego-frontend/index.html",
     "static/media/bell.svg": "/lovego-frontend/static/media/bell.a3d9b9d565af8b486de2ca4f3857af2c.svg",
     "static/media/shopcar.svg": "/lovego-frontend/static/media/shopcar.4dd2fae63bae861a994d34f1ca8a9982.svg",
     "static/media/logout.svg": "/lovego-frontend/static/media/logout.778da0baf1c37a8a88d5baa2c7020bad.svg",
-    "main.c4af49f8.css.map": "/lovego-frontend/static/css/main.c4af49f8.css.map",
-    "main.15767fa5.js.map": "/lovego-frontend/static/js/main.15767fa5.js.map",
+    "main.13610245.css.map": "/lovego-frontend/static/css/main.13610245.css.map",
+    "main.5a9cf499.js.map": "/lovego-frontend/static/js/main.5a9cf499.js.map",
     "787.23eef1b7.chunk.js.map": "/lovego-frontend/static/js/787.23eef1b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4af49f8.css",
-    "static/js/main.15767fa5.js"
+    "static/css/main.13610245.css",
+    "static/js/main.5a9cf499.js"
   ]
 }
