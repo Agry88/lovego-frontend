@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lovego-frontend/static/css/main.13610245.css",
-    "main.js": "/lovego-frontend/static/js/main.5a9cf499.js",
+    "main.css": "/lovego-frontend/static/css/main.79687a4a.css",
+    "main.js": "/lovego-frontend/static/js/main.1ccee5eb.js",
     "static/js/787.23eef1b7.chunk.js": "/lovego-frontend/static/js/787.23eef1b7.chunk.js",
     "static/media/product.png": "/lovego-frontend/static/media/product.b1f33abe819e6bfb139e.png",
     "static/media/logo.png": "/lovego-frontend/static/media/logo.e290b6d3e36b5f64aa97.png",
@@ -22,12 +22,12 @@
     "static/media/bell.svg": "/lovego-frontend/static/media/bell.a3d9b9d565af8b486de2ca4f3857af2c.svg",
     "static/media/shopcar.svg": "/lovego-frontend/static/media/shopcar.4dd2fae63bae861a994d34f1ca8a9982.svg",
     "static/media/logout.svg": "/lovego-frontend/static/media/logout.778da0baf1c37a8a88d5baa2c7020bad.svg",
-    "main.13610245.css.map": "/lovego-frontend/static/css/main.13610245.css.map",
-    "main.5a9cf499.js.map": "/lovego-frontend/static/js/main.5a9cf499.js.map",
+    "main.79687a4a.css.map": "/lovego-frontend/static/css/main.79687a4a.css.map",
+    "main.1ccee5eb.js.map": "/lovego-frontend/static/js/main.1ccee5eb.js.map",
     "787.23eef1b7.chunk.js.map": "/lovego-frontend/static/js/787.23eef1b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13610245.css",
-    "static/js/main.5a9cf499.js"
+    "static/css/main.79687a4a.css",
+    "static/js/main.1ccee5eb.js"
   ]
 }
