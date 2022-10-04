@@ -1,7 +1,17 @@
 import festival_img from "../../imgs/bbq.svg";
 import Card from './../Card/card';
+import shopcar from "../../imgs/main-menu.png";
+import tempjson from "../../temp.json";
+import { useEffect, useState } from "react";
 
 function ListCard() {
+
+    const [prods, setprods] = useState([])
+
+    useEffect(() => {
+        setprods(tempjson)
+    }, [])
+
     return (
         <section className="cateprod-list">
             <div className="cateprod-container">
@@ -11,9 +21,9 @@ function ListCard() {
                     <img src={festival_img} alt="cateprod-list-title-img" />
                 </div>
                 <div className="cateprod-list-product-block">
-                    <Card />
-                    <Card />
-                    <Card />
+                    {prods && prods.slice(3, 7).map(prod => {
+                        return <Card key={prod.prod_title} prod_price={prod.prod_price} prod_title={prod.prod_title} />
+                    })}
                 </div>
             </div>
         </section>

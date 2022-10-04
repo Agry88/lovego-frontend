@@ -46,7 +46,7 @@
 
 .popular-item{
     display: flex;  
-    height: 300px;
+    height: auto;
     width: 18%;
 }
 
