@@ -15,7 +15,7 @@ function CardList() {
         <section className="prodict-section gap-top">
             <div className="product-block">
                 <ul className="product-list">
-                    {prods && prods.map(prod => {
+                    {prods && prods.slice(0,8).map(prod => {
                         return <Card key={prod.prod_title} prod_price={prod.prod_price}  prod_title={prod.prod_title}/>
                     })}
                 </ul>
