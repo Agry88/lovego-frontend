@@ -88,7 +88,7 @@ function Navbar() {
                             </button>
                         </div>
                         <div className="user-section">
-                            <button className="btn-right-section btn-user">
+                            <button className="btn-right-section btn-user" onClick={() => navigate("/Signinpage")}>
                                 <span>查看使用者</span>
                                 <img src={logout} alt="Logout" className="mainnav-icons" />
                             </button>
