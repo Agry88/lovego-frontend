@@ -61,8 +61,7 @@
 }
 .signin-title-frame{
     background: #9096A6;
-    padding: 2% 6% 2% 6%;
-
+    padding: 2% 3vw;
 }
 .signin-title{
     background: #9096A6;
@@ -70,15 +69,10 @@
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 143%;
-    padding-left: 5%;
-    padding-left: 60px;;
     /* or 64px */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing:60px;
+    text-align: right;
+    margin-right:-3vw;
+    letter-spacing:3vw;
 }
 .signin-form{
     font-family: 'Open Sans';
@@ -100,7 +94,6 @@
     display: inline-flex;
     border-radius:10px;
     margin-bottom: 15px;
-    min-width: 300px;
     width: 100%;
 }
 .signin-form-input input{

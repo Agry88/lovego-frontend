@@ -61,7 +61,7 @@
 }
 .signup-title-frame{
     background: #9096A6;
-    padding: 2% 6% 2% 6%;
+    padding: 2% 3vw;
 
 }
 .signup-title{
@@ -71,14 +71,10 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 143%;
-    padding-left: 5%;
-    padding-left: 60px;;
     /* or 64px */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing:60px;
+    text-align: right;
+    margin-right:-3vw;
+    letter-spacing:3vw;
 }
 .signup-form{
     font-family: 'Open Sans';
