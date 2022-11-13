@@ -110,6 +110,12 @@ function Navbar() {
                     <button>
                         <span>保健食品</span>
                     </button>
+                    <button>
+                        <span>保養品</span>
+                    </button>
+                    <button>
+                        <span>精品</span>
+                    </button>
                 </div>
             </header>
         </section>

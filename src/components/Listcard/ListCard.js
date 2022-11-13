@@ -1,7 +1,25 @@
+import { useState, useEffect } from 'react';
 import festival_img from "../../imgs/bbq.svg";
 import Card from './../Card/card';
-
 function ListCard() {
+    const [data,setdata] = useState(null);
+    useEffect(() => {
+        var myHeaders = new Headers();
+        var requestOptions = {
+            method: 'GET',
+            headers: myHeaders,
+            redirect: 'follow'
+        };
+
+        fetch("https://lovego-backend.azurewebsites.net/api/products/", requestOptions)
+            .then(response => response.json())
+            .then(result => {
+                setdata(result.slice(6,9))
+            })
+            .catch(error => console.log('error', error));
+
+    }, [])
+    console.log(data)
     return (
         <section className="cateprod-list">
             <div className="cateprod-container">
@@ -11,9 +29,10 @@ function ListCard() {
                     <img src={festival_img} alt="cateprod-list-title-img" />
                 </div>
                 <div className="cateprod-list-product-block">
-                    <Card />
-                    <Card />
-                    <Card />
+                    {data?data.map(data =>{
+                        return(
+                        <Card img={data.image} title={data.name} price={data.price}/>
+                    )}):null}
                 </div>
             </div>
         </section>

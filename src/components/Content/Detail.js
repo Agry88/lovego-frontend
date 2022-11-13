@@ -10,7 +10,7 @@ function detail() {
             content: "內容量：2700\n固形量：1500g"
         },
         {
-            title: "商品介紹",
+            title: "配送方式",
             content: "店面選購、冷凍宅配、校內限定公文車交換"
         }
     ]

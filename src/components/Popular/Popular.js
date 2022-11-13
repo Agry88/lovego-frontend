@@ -9,11 +9,30 @@ function Popular() {
     const ul_list = useRef(null)
     const dot_container = useRef(null)
     const dot_index = useRef(0)
+    const [data, setdata] = useState(null)
 
     const handleButton = (direction) => {
         const offset = direction === 'left' ? -1000 : 1000
         ul_list.current.scrollLeft = ul_list.current.scrollLeft + offset
     }
+
+    useEffect(() => {
+        var myHeaders = new Headers();
+    
+        var requestOptions = {
+          method: 'GET',
+          headers: myHeaders,
+          redirect: 'follow'
+        };
+    
+        fetch("https://lovego-backend.azurewebsites.net/api/products/", requestOptions)
+          .then(response => response.json())
+          .then(result => {
+            setdata(result)
+          })
+          .catch(error => console.log('error', error));
+    
+      }, [])
 
     useEffect(() => {
         //點擊按鈕時也會觸發這個event
@@ -41,21 +60,23 @@ function Popular() {
         <div className="popular-frame">
             <p className="popular-text">熱門商品</p>
             <div className="popular-dot-container" ref={dot_container}>
-                {[...Array(numofdots)].map((element, index) => {
+                {data ? [...Array(data.length/5)].map((element, index) => {
                     if (index === 0) {
                         return <span key={index} className="popular-dot selected" ></span>
                     }
                     return <span key={index} className="popular-dot"></span>
-                })}
+                }) : null}
             </div>
             <div className="popular-list">
                 <button className="popular-arrow left" >
                     <img src={lefticon} alt="lefticon" onClick={() => handleButton('left')} />
                 </button>
                 <ul className="popular-list" ref={ul_list}>
-                    {[...Array(props_length)].map((element, index) => {
-                        return <li key={index} className="popular-item" style={{ width: "100%" }}><Card /></li>
-                    })}
+                    {data ? data.map((element, index) => {
+                        return <li key={index} className="popular-item" style={{ width: "100%" }}>
+                            <Card key={element.id} img={element.image} title={element.name} price={element.price} />
+                        </li>
+                    }): null}
                 </ul>
                 <button className="popular-arrow right">
                     <img src={lefticon} alt="lefticon" onClick={() => handleButton('right')} />
